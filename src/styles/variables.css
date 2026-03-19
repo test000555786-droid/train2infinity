@@ -1,0 +1,57 @@
+:root {
+  /* Brand Colors */
+  --color-neon-blue: #F26818;
+  --color-neon-purple: #C94E05;
+  --color-neon-cyan: #FF8A3D;
+  --color-neon-pink: #F26818;
+
+  /* Dark Backgrounds */
+  --color-dark-950: #020408;
+  --color-dark-900: #060B14;
+  --color-dark-800: #0A1020;
+  --color-dark-700: #0F1830;
+  --color-dark-600: #162040;
+
+  /* Glass Effects */
+  --glass-bg: rgba(255, 255, 255, 0.04);
+  --glass-bg-hover: rgba(255, 255, 255, 0.08);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-border-hover: rgba(255, 119, 0, 0.275);
+  --glass-blur: 20px;
+  --glass-heavy-blur: 40px;
+
+  /* Gradients */
+  --gradient-neon: linear-gradient(135deg, #F26818 0%, #e2601546 100%);
+  --gradient-neon-2: linear-gradient(135deg, #C94E05 0%, #e2601546 100%);
+  --gradient-glass: linear-gradient(135deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.02) 100%);
+
+  /* Shadows */
+  --shadow-neon-blue: 0 0 20px rgba(255, 115, 0, 0.5), 0 0 40px rgba(255, 111, 0, 0.215);
+  --shadow-neon-purple: 0 0 20px rgba(255, 161, 47, 0.5), 0 0 40px rgba(123, 47, 255, 0.2);
+  --shadow-glass: 0 8px 32px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  --shadow-glass-hover: 0 16px 48px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+
+  /* Typography */
+  --font-display: 'Orbitron', sans-serif;
+  --font-body: 'Syne', sans-serif;
+  --font-accent: 'Space Grotesk', sans-serif;
+
+  /* Spacing */
+  --section-padding: 120px 0;
+  --container-max: 1280px;
+  --container-pad: 0 24px;
+
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-smooth: 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  --transition-slow: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  --transition-spring: 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* Z-index layers */
+  --z-loader: 9999;
+  --z-cursor: 9998;
+  --z-nav: 100;
+  --z-modal: 500;
+  --z-above: 10;
+  --z-base: 1;
+}
