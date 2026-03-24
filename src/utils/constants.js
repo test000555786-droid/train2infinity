@@ -4,14 +4,14 @@ export const GYM_INFO = {
   rating: 4.9,
   reviewCount: 247,
   phone: '+91 85969 99000',
-  email: 'info@train2infinity.in',
+  email: 'test000555786@gmail.com',
   address: {
     street: 'Near Salipur High School Field, Salipur',
     area: 'Chandradeipur, Salipur',
     city: 'Salipur',
     state: 'Odisha',
     pincode: '754202',
-    full: '20.480405051907336, 86.10553258242322',
+    full: "Near Salipur High School Field, Chandradeipur, Salipur, Odisha - 754202, train 2 infinity ",
   },
   hours: {
     weekdays: '5:00 AM – 10:00 PM',

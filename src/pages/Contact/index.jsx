@@ -94,10 +94,10 @@ const Contact = () => {
       icon: Mail,
       label: 'Email',
       value: GYM_INFO.email,
-      href: `mailto:${GYM_INFO.email}`,
+      href: `mailto:${GYM_INFO.email}?subject=Gym Membership Inquiry&body=Hi, I want to join Train 2 Infinity gym`,
       accent: '#FF8A3D',
     },
-    {
+    { 
       icon: Clock,
       label: 'Hours',
       value: 'Mon–Sat: 5:00 AM – 10:00 PM\nSunday: Closed',

@@ -9,7 +9,13 @@ import Button from '../../components/ui/Button';
 import Particles from '../../components/effects/Particles';
 import { MEMBERSHIP_PLANS, GYM_INFO } from '../../utils/constants';
 
-const PlanCard = ({ plan, isHighlighted }) => (
+import { useNavigate } from "react-router-dom";
+
+const PlanCard = ({ plan, isHighlighted }) => {
+  const navigate = useNavigate();
+
+  return (
+  
   <motion.div
     className="relative"
     whileHover={{ y: -8 }}
@@ -19,7 +25,7 @@ const PlanCard = ({ plan, isHighlighted }) => (
       <div className="absolute -top-4 left-1/2 -translate-x-1/2 z-20">
         <div className="px-5 py-1.5 rounded-full text-[10px] font-display font-bold tracking-widest uppercase text-white"
           style={{ background: 'linear-gradient(135deg, #F26818, #C94E05)', boxShadow: '0 0 20px rgba(0,212,255,0.4)' }}>
-          ⚡ Most Popular
+          ⚡    Most Popular
         </div>
       </div>
     )}
@@ -105,7 +111,7 @@ const PlanCard = ({ plan, isHighlighted }) => (
               : `${plan.color}15`,
           }}
           whileTap={{ scale: 0.97 }}
-          onClick={() => window.location.href = '/contact'}
+          onClick={() => navigate('/contact')}
         >
           Get Started Now
         </motion.button>
@@ -113,6 +119,7 @@ const PlanCard = ({ plan, isHighlighted }) => (
     </div>
   </motion.div>
 );
+};
 
 const Membership = () => {
   const faqs = [
@@ -256,5 +263,6 @@ const Membership = () => {
     </main>
   );
 };
+
 
 export default Membership;
