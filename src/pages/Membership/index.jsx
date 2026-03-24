@@ -107,7 +107,7 @@ const PlanCard = ({ plan, isHighlighted }) => (
           whileTap={{ scale: 0.97 }}
           onClick={() => window.location.href = '/contact'}
         >
-          Get Started
+          Get Started Now
         </motion.button>
       </div>
     </div>
@@ -170,7 +170,7 @@ const Membership = () => {
                 <PlanCard plan={plan} isHighlighted={plan.popular} />
               </StaggerItem>
             ))}
-          </StaggerContainer>
+          </StaggerContainer> 
 
           {/* Free trial CTA */}
           <FadeInView delay={0.3}>
