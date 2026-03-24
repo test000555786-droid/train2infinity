@@ -100,7 +100,7 @@ const Navbar = () => {
           {/* Right side actions */}
           <div className="hidden lg:flex items-center gap-3">
             {/* Theme toggle */}
-            <button
+            {/* <button
               onClick={toggleTheme}
               className="w-8 h-8 rounded-lg flex items-center justify-center transition-all duration-200"
               style={{
@@ -112,7 +112,7 @@ const Navbar = () => {
                 ? <Sun size={14} color="rgba(255,255,255,0.6)" />
                 : <Moon size={14} color="rgba(255,255,255,0.6)" />
               }
-            </button>
+            </button> */}
 
             <Button to="/contact" variant="primary" size="sm">
               Join Now
